@@ -1,5 +1,5 @@
-let crearPalindromo = (cadena: string) => {
+let crearPalindromoString = (cadena: string) => {
     return cadena + cadena.split("").reverse().join("");
 }
 
-console.log(crearPalindromo("panela y limon"));
+console.log(crearPalindromoString("panela y limon"));

@@ -1,4 +1,4 @@
-let crearPalindromo = (cadena: string) => {
+let crearPalindromoFor = (cadena: string) => {
     let inverso = "";
     for (let i of cadena) {
         inverso = i + inverso;
@@ -6,4 +6,4 @@ let crearPalindromo = (cadena: string) => {
     return cadena + inverso;
 }
 
-console.log(crearPalindromo("panela y limon"));
+console.log(crearPalindromoFor("panela y limon"));

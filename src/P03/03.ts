@@ -1,4 +1,4 @@
-let obtenerMayor = (...lista: any) => {
+let obtenerMayor = (...lista: Array<number>) => {
     let pivote = 0
     lista.forEach((element: number) => {
         if (element > pivote) pivote = element;
